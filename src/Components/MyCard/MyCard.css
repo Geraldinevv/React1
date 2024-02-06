@@ -1,0 +1,28 @@
+.my-card {
+  width: 100%; 
+  max-width: 300px; 
+  margin: 10px auto; 
+}
+
+.my-card img {
+  max-height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tags {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.tags .badge {
+  margin: 0.2rem;
+}
+
+.btn-primary {
+  background-color: green;
+  border-color: green;
+  color: #fff;
+}

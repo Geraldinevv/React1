@@ -1,0 +1,17 @@
+/* src/components/Tags.css */
+.tags {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.tags .badge {
+  margin: 0.2rem;
+}
+
+@media (orientation: landscape) {
+  .tags .badge {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,49 @@
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.my-card {
+  width: 100%; /* Set to 100% to occupy the full width */
+  max-width: 300px; /* Add max-width to avoid stretching too much on larger screens */
+  margin: 10px auto; /* Center horizontally with auto margin */
+}
+
+.my-card-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align to the top */
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.my-card img {
+  max-height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tags {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.tags .badge {
+  margin: 0.2rem;
+}
+
+@media (orientation: landscape) {
+  .my-card {
+    margin: 2rem;
+  }
+
+  .my-card img {
+    max-height: 30rem;
+  }
+
+  .tags .badge {
+    font-size: 1.2rem;
+  }
+}
